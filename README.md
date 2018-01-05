@@ -35,6 +35,15 @@ Documentation for new success engineers
     - go to the body, depending on the type of request, if it is a post request, you can pass in the parameters from the body tag in the form-data.
 
 
+### What is a Module in Node.js?
+
+- Node.js has a set of built-in modules which you can use without any further installation.
+
+### Include Modules
+
+- To include a module, use the require() function with the name of the module:
+    - see http.js file with detailed notes on requiring http and running a createServer
+
 ### Behind the Scenes:
 
 - After a request is made to googles server, there will be code on the server that will be listening for different requests and responding with diff pieces:
