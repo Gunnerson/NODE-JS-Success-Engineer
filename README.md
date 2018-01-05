@@ -26,3 +26,22 @@ Documentation for new success engineers
             - date and time, when the request and response took place.
             - status: a number, 202, 404 etc... part of protocol of http, standardized way to say that the request that was made is fine and sends back status code 200.
             - you can send data with a query string using a GET request, and if the server is expecting a name parameter then it will respond.
+
+
+### In Postman:
+
+- make a GET request to reddit.com and click on params and what that will let you do, is add a url parameter, key+value and postman will make the request and add the string.
+    - click send and go to the body, we get a bunch of html and css where you can isolate
+    - go to the body, depending on the type of request, if it is a post request, you can pass in the parameters from the body tag in the form-data.
+
+
+### Behind the Scenes:
+
+- After a request is made to reddits server, there will be code on the server that will be listening for different requests and responding with diff pieces:
+
+    - starting the server, and the app will be hosted on localhost 3000
+    - in our terminal, we run the name of the command "node nameofapp.js"
+    - it will tell us hopefully, someone made a GET request to the url / with a status 200
+    - try doing this in postman also, with diff routes as well
+    - our apps will have the following:
+        - dependancies, setting up a database, routes.
