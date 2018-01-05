@@ -37,10 +37,10 @@ Documentation for new success engineers
 
 ### Behind the Scenes:
 
-- After a request is made to reddits server, there will be code on the server that will be listening for different requests and responding with diff pieces:
+- After a request is made to googles server, there will be code on the server that will be listening for different requests and responding with diff pieces:
 
-    - starting the server, and the app will be hosted on localhost 3000
-    - in our terminal, we run the name of the command "node nameofapp.js"
+    - starting the server in the "http.js" file, and the app will be hosted on localhost 8080
+    - in our terminal, we run the name of the command "node http.js"
     - it will tell us hopefully, someone made a GET request to the url / with a status 200
     - try doing this in postman also, with diff routes as well
     - our apps will have the following:
